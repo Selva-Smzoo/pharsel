@@ -1,0 +1,95 @@
+@charset "UTF-8";
+/* ===================================================================
+CSS information
+
+ author     : SELVA Co., Ltd.
+ style info : 基本・共通設定
+=================================================================== */
+html {
+  text-align: center;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Segoe UI', 'Hiragino Kaku Gothic ProN', 'Yu Gothic', sans-serif;
+  line-height: 1.5em;
+}
+
+a {
+  color: #676767;
+  text-decoration: none;
+}
+.mouse a:hover, .touch a.touchstart {
+  text-decoration: none;
+  opacity: .8;
+}
+
+img {
+  height: auto;
+}
+
+.mouse .over {
+  -moz-transition: opacity 200ms ease-in;
+  -o-transition: opacity 200ms ease-in;
+  -webkit-transition: opacity 200ms ease-in;
+  transition: opacity 200ms ease-in;
+}
+.mouse .over:hover, .touch .over.touchstart {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+  opacity: 0.7;
+}
+.touch .over {
+  -webkit-tap-highlight-color: transparent;
+}
+.touch .over.touchend {
+  -moz-transition-delay: 200ms;
+  -o-transition-delay: 200ms;
+  -webkit-transition-delay: 200ms;
+  transition-delay: 200ms;
+}
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.effect div {
+  transition: .8s;
+  transition-delay: .8s;
+}
+
+.cf:before,
+.cf:after {
+  content: "";
+  display: table;
+}
+
+.cf:after {
+  clear: both;
+}
+
+.cf {
+  zoom: 1;
+}
+
+/* 共通要素 */
+.pagetop {
+  width: 70px;
+  height: 70px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 120;
+  transition: all 0.6s ease;
+  -webkit-transition: all 0.6s ease;
+}
+.pagetop img {
+  width: 100%;
+  transition: .85s;
+  -webkit-transform: rotateY(0deg);
+  transform: rotateY(0deg);
+}
+.pagetop:hover img {
+  -webkit-transform: rotateY(360deg);
+  transform: rotateY(360deg);
+}
