@@ -1,0 +1,215 @@
+@charset "utf-8";
+/* ===================================================================
+CSS information
+
+ author     : SELVA Co., Ltd.
+ style info : contact
+=================================================================== */
+@import "settings";
+
+section {
+	&#intro {
+		.tl_sec {
+			margin-bottom: 30px;
+		}
+		.note {
+			padding-left: 20px;
+			font-size: 19px;
+			color: #EF0F0F;
+			text-align: left;
+		}
+		article {
+			&.wrap_form {
+				max-width: 820px;
+				margin: 0 auto;
+				padding: 40px 2%;
+				.li_form {
+					padding-top: 10px;
+					li {
+						&:nth-child(1) {
+							input {
+								background: url(../contact/images/ic_companyname.png) left 36px center no-repeat #F4F4F4;
+							}
+						}
+						&:nth-child(2) {
+							input {
+								border: 1px solid #9a9a9a;
+								background: url(../contact/images/ic_section.png) left 29px center no-repeat #F4F4F4;
+							}
+						}
+						&:nth-child(3) {
+							input {
+								background: url(../contact/images/ic_name.png) left 36px center no-repeat #F4F4F4;
+							}
+						}
+						&:nth-child(4) {
+							input {
+								background: url(../contact/images/ic_pin.png) left 36px center no-repeat #F4F4F4;
+							}
+						}
+						&:nth-child(5) {
+							input {
+								background: url(../contact/images/ic_mail.png) left 36px center no-repeat #F4F4F4;
+							}
+						}
+						&:nth-child(6) {
+							input {
+								background: url(../contact/images/ic_tel.png) left 36px center no-repeat #F4F4F4;
+							}
+						}
+						input {
+							width: 100%;
+							display: block;
+							margin-bottom: 20px;
+							padding: 20px 20px 20px 80px;
+							border: 1px solid #EF0F0F;
+							@include border-radius(50px);
+							&:hover {
+								background-color: #f9f9f9;
+							}
+						}
+						&:nth-child(7) {
+							padding: 20px 20px 20px 80px;
+							background: url(../contact/images/ic_clipboard.png) left 40px top 28px no-repeat;
+							text-align: left;
+							color: #5d5d5d;
+							font-size: 18px;
+							input {
+								background-color:transparent;
+								width: auto;
+								margin-bottom: 0;
+								display: inline-block;
+								border: none;
+								vertical-align: baseline;
+							}
+							span {
+								padding-top: 4px;
+								padding-left: 2px;
+								padding-right: 20px;
+								display: inline-block;
+								vertical-align: baseline;
+								opacity: 0.7;
+							}
+						}
+					}
+				}
+				.wrap_btn {
+					padding-top: 40px;
+					button {
+						&:hover {
+							cursor: pointer;
+						}
+					}
+				}
+				.box_privacy {
+					margin: 60px 0 10px;
+					padding: 23px 40px;
+					border: 1px dotted #ceb7b7;
+					text-align: left;
+					@include border-radius(10px);
+					.tl_privacy {
+						margin-bottom: 4px;
+						font-size: 19px;
+						color: #4a4a4a;
+					}
+					.txt_privacy {
+						font-size: 15px;
+						color: #4a4a4a;
+					}
+				}
+			}
+		}
+	}
+}
+
+textarea {
+	background-color: #F4F4F4;
+	width: 100%;
+	padding: 10px 20px;
+	border-radius: 10px;
+}
+
+$iconColor: #53b300;
+input[type=radio], input[type=checkbox] {
+  display: none!important;
+}
+.radio, .checkbox {
+  box-sizing: border-box;
+  -webkit-transition: background-color 0.2s linear;
+  transition: background-color 0.2s linear;
+  position: relative;
+  display: inline-block;
+  margin: 0 20px 8px 0;
+  padding: 12px 12px 12px 42px;
+  border-radius: 8px;
+	border: 1px solid #9a9a9a;
+  background-color: #F4F4F4;
+  vertical-align: middle;
+  cursor: pointer;
+  &:hover {
+    background-color: #f9f9f9;
+    &:after {
+      border-color: $iconColor;
+    }
+  }
+
+  &:after {
+    -webkit-transition: border-color 0.2s linear;
+    transition: border-color 0.2s linear;
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    display: block;
+    margin-top: -10px;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #bbb;
+    @include border-radius(20px);
+    content: '';
+  }
+}
+.radio {
+  &:before {
+    -webkit-transition: opacity 0.2s linear;
+    transition: opacity 0.2s linear;
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    display: block;
+    margin-top: -5px;
+    width: 10px;
+    height: 10px;
+    @include border-radius(50%);
+    background-color: $iconColor;
+    content: '';
+    opacity: 0;
+    input[type=radio]:checked + & {
+      opacity: 1;
+    }
+  }
+}
+
+.checkbox {
+	border: 1px solid #EF0F0F;
+  &:before {
+    -webkit-transition: opacity 0.2s linear;
+    transition: opacity 0.2s linear;
+    position: absolute;
+    top: 46%;
+    left: 21px;
+    display: block;
+    margin-top: -7px;
+    width: 8px;
+    height: 13px;
+    border-right: 3px solid $iconColor;
+    border-bottom: 3px solid $iconColor;
+    content: '';
+    opacity: 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    input[type=checkbox]:checked + & {
+      opacity: 1;
+    }
+  }
+}

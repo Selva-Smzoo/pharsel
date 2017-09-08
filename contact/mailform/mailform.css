@@ -1,0 +1,146 @@
+@charset "UTF-8";
+div#mf_wrapper {
+	width: 100%;
+	text-align: left;
+	margin: 0px auto 0px auto;
+	font-family: sans-serif;
+}
+div#mf_header h1 {
+	font-size: 24px;
+	border-bottom: solid 1px #E5E5E5;
+	margin: 0px;
+	padding: 0px;
+}
+div#mf_header h2 {
+	font-size: 16px;
+	color: #333333;
+	font-weight: normal;
+	margin: 0px;
+	padding: 0px;
+}
+form#mailform {
+	margin-top: 0px;
+	padding: 0px;
+}
+table.mailform {
+	width: 92%;
+	margin: 25px auto 0px;
+	line-height: 2em;
+}
+table.mailform tr th, table.mailform tr td {
+	text-align: left;
+	font-weight: normal;
+	padding: 12px 10px 10px 38px;
+	vertical-align: middle;
+	border-top: none;
+	font-size: 15px;
+	color: #666;
+}
+
+table.mailform tr.send_btn td {
+	padding: 20px 10px 10px 85px;
+}
+
+table.mailform tr th {
+	color: #000;
+}
+table.mailform tr th {	
+	width: 230px;
+	padding: 12px 0 10px 25px;
+	border-top: none;
+	border-right: none;
+	border-bottom: none;
+	vertical-align: top;
+	letter-spacing: 3px;
+	font-size: 15px;
+	font-weight: bold;
+	color: #333;
+}
+table.mailform tr th.last,
+table.mailform tr td.last {
+	border-right: none;
+	border-bottom: none;
+	background: none;
+}
+table.mailform tr th span {
+	color: #E63F3F;
+	font-size: 13px;
+	padding:0 0 0 5px;
+}
+table.mailform tr th p {
+	margin: 0px;
+	padding: 0px;
+	font-size: 10px;
+	color: #CCCCCC;
+}
+table.mailform tr td textarea {
+	width: 88%;
+	height: 120px;
+	border-color: #CCC;
+}
+
+.mailform_lg_sss { width:100px;}
+.mailform_lg_ss { width:211px;}
+.mailform_lg_s { width:230px;}
+.mailform_lg_m { width:400px;}
+.mailform_lg_l { width:437px;}
+
+
+table.mailform tr th.sbbox { text-align:center; padding:30px 0 60px;}
+/*.sb_btn1 { background: url(images/btn_arr.png) no-repeat left center; color:#0D8BC4; width:140px; }
+.sb_btn2 { background: url(images/btn_arr.png) no-repeat left center; color:#BCBCBC; width:120px;  }
+.sb_btn1:hover,.sb_btn2:hover { text-decoration:none; opacity:0.7; cursor:pointer;}
+
+.sb_btn1,.sb_btn2 { display:inline-block; margin:3px; letter-spacing:2px; text-align:left;height:30px; padding:0 0 0 35px; border:none; font-size:14px;font-weight:bold;}
+*/
+.form_btn {
+  background: #525252 none repeat scroll 0 0;
+  margin: 40px auto 25px;
+  text-align: center;
+  width: 180px;
+}
+.form_btn a {
+  color: #ffffff;
+  display: block;
+  padding: 20px 30px;
+}
+
+.sb_btn2 {
+    background: #BBBBBB;
+    color: #fff;
+    font-size: 14px;
+}
+.sb_btn1, .sb_btn2 {
+    border: medium none;
+    display: inline-block;
+    font-size: 14px;
+/*    height: 36px;*/
+    letter-spacing: 2px;
+    margin: 3px;
+    padding: 6px 15px 6px 16px;
+    text-align: left;
+}
+.sb_btn1 {
+	background: #25519c;
+	width: 100%;
+	padding: 20px 0;
+	text-align: center;
+	font-size: 19px;
+	font-weight: bold;
+	color: #fff;
+}
+.sb_btn1:hover, .sb_btn2:hover {
+	opacity:0.8;
+	cursor: pointer;
+}
+
+.contact_telfax { margin-bottom:0px; margin-top:30px; text-align:center; }
+.contact_telfax li {
+	width: 380px;
+	padding-left:50px;
+	margin: 0 auto;
+	display: block;
+}
+.contact_telfax li span {}
+.contact_privacy { width:60%; margin:0 auto; }
+.contact_privacy strong { display:block; margin-top:10px; }

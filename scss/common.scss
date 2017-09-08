@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* ===================================================================
+CSS information
+
+ author     : SELVA Co., Ltd.
+ style info : 基本・共通設定
+=================================================================== */
+@import "settings";
+
+html {
+	text-align: center;
+}
+body {
+	font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Segoe UI', 'Hiragino Kaku Gothic ProN', 'Yu Gothic', sans-serif;
+	line-height: 1.5em;
+}
+a {
+	color: #676767;
+	text-decoration: none;
+	.mouse &:hover,
+	.touch &.touchstart {
+		text-decoration: none;
+		opacity: .8;
+	}
+}
+img {
+	height: auto;
+}
+// .mouseOver
+.over {
+	.mouse & {
+		@include transition(opacity 200ms ease-in);
+	}
+	@include hover {
+		@include opacity(.7);
+	}
+}
+// border-box
+* {
+	@include box-sizing(border-box);
+}
+// effects
+.effect div {
+  transition: .8s;
+  transition-delay: .8s;
+}
+
+.cf:before,
+.cf:after {
+		content:"";
+		display:table;
+}
+.cf:after {
+		clear:both;
+}
+.cf {
+		zoom:1;
+}
+
+/* 共通要素 */
+.pagetop {
+	width: 70px;
+	height: 70px;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	z-index: 120;
+	transition: all 0.6s ease;
+	-webkit-transition: all 0.6s ease;
+	img {
+		width: 100%;
+		transition: .85s;
+		-webkit-transform: rotateY( 0deg );
+		transform: rotateY( 0deg );
+	}
+	&:hover {
+		img {
+			-webkit-transform: rotateY( 360deg );
+			transform: rotateY( 360deg );
+		}
+	}
+}
