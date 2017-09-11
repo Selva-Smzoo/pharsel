@@ -52,9 +52,9 @@ $(function(){
 
 			$("#fv").bgswitcher({
 				images: [
-				"images/top_bg_fv.jpg",
-				"images/top_bg_fv2.jpg",
-				"images/top_bg_fv.jpg"
+				"images/top/top_bg_fv1.jpg",
+				"images/top/top_bg_fv1.jpg",
+				"images/top/top_bg_fv1.jpg"
 				],
 				effect: "fade",
 				easing: "swing",
@@ -156,7 +156,6 @@ $(document).ready(function(){
 	<?php include "./templates/header.php"; ?>
 <div id="wrapper">
 	<div id="fv">
-		fv
 	</div>
 
 	<section id="aa">
