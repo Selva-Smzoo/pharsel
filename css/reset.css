@@ -37,7 +37,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section { 
 audio, canvas, progress, video { display: inline-block; vertical-align:baseline; }
 svg:not(:root) { overflow:hidden; }
 table { border-collapse:collapse; border-spacing:0; }
-fieldset, img { height:auto; border:0; }
+fieldset, img { border:0; }
 address, caption, cite, code, dfn, em, strong, th, var { font-style:normal; font-weight:normal; }
 li { list-style:none; vertical-align: top; }
 caption, th { text-align:left; }

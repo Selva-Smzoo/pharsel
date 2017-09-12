@@ -214,7 +214,7 @@ section#explain .wrap_ex .fbox .box_img .st_client {
   margin-left: 4px;
 }
 section#explain .wrap_ex .fbox .box_img .st_client.col_green {
-  border-bottom: 1px dotted #4AC016;
+  border-bottom: 1px dotted #848484;
 }
 section#explain .wrap_ex .fbox .box_img .st_client.col_orange {
   border-bottom: 1px dotted #F59600;
@@ -496,7 +496,7 @@ section#support .bg_boreder#function_support h3 {
   background: url(../function/images/ic_support.png) left bottom no-repeat;
   background-size: contain;
   padding-left: 66px;
-  color: #4AC016;
+  color: #848484;
 }
 section#support .bg_boreder#function_support h3 span {
   display: block;
@@ -512,7 +512,7 @@ section#support .bg_boreder#function_support .fbox:nth-child(2n+1) .wrap_txt_bot
   background-color: #5bc328;
 }
 section#support .bg_boreder#function_support .wrap_txt_bottom {
-  background-color: #4AC016;
+  background-color: #848484;
 }
 section#support .bg_boreder#function_concern {
   background: url(../function/images/bg_function_concern.png) 0 center repeat-x;

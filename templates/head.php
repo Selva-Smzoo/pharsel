@@ -5,7 +5,7 @@
 <title><?php echo $meta['title']; ?></title>
 <meta name="keywords" content="<?php echo $meta['keywords']; ?>">
 <meta name="description" content="<?php echo $meta['description']; ?>">
-<meta name="viewport" content="width=1200">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="format-detection" content="telephone=no">
 <link rel="index" href="<?php echo location; ?>">
 

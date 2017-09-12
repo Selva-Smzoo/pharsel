@@ -54,41 +54,9 @@ $(function(){
 			return false;
 	 });
 
-	//header
-	$(window).scroll(function() {
-		if ($(this).scrollTop() > 1){
-		    $('#header ').addClass("sticky");
-		  }
-	  else{
-	    $('#header').removeClass("sticky");
-	  }
-
-		var st = $(window).scrollTop();
-		if(st > 0){
-		$(".imgbox img").addClass("fade");
-		}else{
-		$(".imgbox img").removeClass("fade");
-		}
-	});
-
-	var $win = $(window),
-	    $header = $('#header'),
-	    headerHeight = $header.outerHeight(),
-	    startPos = 0;
-
-	$win.on('load scroll', function() {
-		var value = $(this).scrollTop();
-		if ( value > startPos && value > headerHeight ) {
-			$header.css('top', '-' + headerHeight + 'px');
-		} else {
-			$header.css('top', '0');
-		}
-		startPos = value;
-	});
-
-	//URLで処理
+	//active設定
 	$(window).bind("load", function(){
-	  if(document.URL.match("/feature/")) {
+	  if(document.URL.match("/searc/")) {
 			$(".nav_header_main ul li:nth-child(1) a").addClass("active");
 	  }
 		if(document.URL.match("/function/")) {
@@ -108,23 +76,6 @@ $(function(){
 		}
 	});
 
-	//header
-	$(window).scroll(function() {
-		if ($(this).scrollTop() > 1){
-				$('header ').addClass("sticky");
-			}
-		else{
-			$('header').removeClass("sticky");
-		}
-
-		var st = $(window).scrollTop();
-		if(st > 0){
-		$(".imgbox img").addClass("fade");
-		}else{
-		$(".imgbox img").removeClass("fade");
-		}
-	});
-
 	var $win = $(window),
 	    $header = $('header'),
 	    headerHeight = $header.outerHeight(),
@@ -139,5 +90,18 @@ $(function(){
 		}
 		startPos = value;
 	});
+});
 
+$(window).on('load', function () {
+  var $body = $('body'),
+      $navTypeA = $('#nav_main'),
+      navTypeAOffsetTop = $navTypeA.offset().top;
+  
+  $(window).on('scroll', function () {
+    if($(this).scrollTop() > navTypeAOffsetTop) {
+      $body.addClass('is-fixed');
+    } else {
+      $body.removeClass('is-fixed');
+    }
+  });
 });
