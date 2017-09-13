@@ -5,5 +5,6 @@
 <script src="<?php echo location_file;?>js/inview-master/jquery.inview.js"></script>
 <script src="<?php echo location_file;?>js/heightLine/jquery.heightLine.js"></script>
 <script src="<?php echo location_file;?>js/fontFlex/jQuery.fontFlex.js"></script>
+<script src="<?php echo location_file;?>js/imgLiquid/imgLiquid.js"></script>
 <script type="text/javascript" src="<?php echo location_file;?>js/bxslider/jquery.bxslider.js"></script>
 <link href="<?php echo location_file;?>js/bxslider/jquery.bxslider.css" rel="stylesheet" type="text/css" media="all">

@@ -62,7 +62,7 @@ img {
 	font-family: Georgia,游明朝,"Yu Mincho",YuMincho,"Hiragino Mincho ProN",HGS明朝E,メイリオ,Meiryo,serif;
 }
 
-/* common */
+/* fv */
 .pagetop {
 	width: 70px;
 	height: 70px;
@@ -98,12 +98,14 @@ img {
 	height: 30px;
 	background-color: transparent!important;
 	background: url(../images/common/pager_off.png) center center no-repeat;
+	background-size: auto 26px;
 	padding: 0!important;
 	margin: 3px;
 	border: none!important;
 }
 .pager_fv button:hover {
 	background: url(../images/common/pager_on.png) center center no-repeat;
+	background-size: auto 26px;
 }
 .pager_fv button:hover {
 	cursor: pointer;
@@ -160,18 +162,17 @@ header {
 	top: auto;
 	bottom: 0;
 	left: 0;
-	z-index: 2;
+	z-index: 5;
 	width: 100%;
 	transition: .3s;
-	z-index: 10;
 }
 #nav_main ul {
 	background-color: #fff;
 	width: 100%;
 	border-top: 1.6px solid #07b1c6;
-	box-shadow:0px 0px 11px 0px #ebebeb;
-	-moz-box-shadow:0px 0px 11px 0px #ebebeb;
-	-webkit-box-shadow:0px 0px 11px 0px #ebebeb;
+	box-shadow: 0px 2px 14px 0px rgba(206, 206, 206, 0.72);
+	-moz-box-shadow: 0px 2px 14px 0px rgba(206, 206, 206, 0.72);
+	-webkit-box-shadow: 0px 2px 14px 0px rgba(206, 206, 206, 0.72);
 }
 #nav_main ul li {
 	background-size: auto 14px!important;
@@ -244,6 +245,7 @@ header {
   margin-bottom: 64px;
 }
 .is-fixed #nav_main {
+	height: 50px;
   position: fixed;
   top: 0;
   left: 0;
@@ -252,7 +254,7 @@ header {
 .wrp_box_fv {
 	width: 100%;
 	position: absolute;
-	bottom: 10%;
+	bottom: 11%;
 	z-index: 1;
 	.wrp_box_txt {
 		padding: 0 0 8% 5%;
@@ -260,34 +262,236 @@ header {
 			font-size: 52px;
 			line-height: 1.3em;
 		}
+		.img_tl_fv {
+			padding-bottom: 10px;
+		}
 	}
 	.wrp_search_box {
 		-webkit-border-radius: 10px 10px 10px 10px;
 		-moz-border-radius: 10px 10px 10px 10px;
 		border-radius: 10px 10px 10px 10px;
-		box-shadow:0px 0px 14px 2px #dadada;
-		-moz-box-shadow:0px 0px 14px 2px #dadada;
-		-webkit-box-shadow:0px 0px 14px 2px #dadada;
+		box-shadow: 0px 0px 14px 2px rgba(195, 195, 195, 0.44);
+		-moz-box-shadow: 0px 0px 14px 2px rgba(195, 195, 195, 0.44);
+		-webkit-box-shadow: 0px 0px 14px 2px rgba(195, 195, 195, 0.44);
 		.search_box_top {
-			background-color: rgba(236, 236, 236, 0.76);
-			padding: 10px 4px 3px;
+			background-color: rgba(236, 236, 236, 0.87);
+			padding: 10px 4px 6px;
 			-webkit-border-radius: 10px 10px 0 0;
 			-moz-border-radius: 10px 10px 0 0;
 			border-radius: 10px 10px 0 0;
+			border: 1px solid #e8e8e8;
 			text-align: center;
 		}
 		.search_box_bototm {
 			background-color: rgba(247, 247, 247, 0.88);
-			min-height: 260px;
+			min-height: 230px;
 			padding: 20px 2% 60px;
+			position: relative;
 			-webkit-border-radius: 0 0 10px 10px;
 			-moz-border-radius: 0 0 10px 10px;
 			border-radius: 0 0 10px 10px;
 		}
 	}
+	.ic_more {
+		position: absolute;
+		bottom: -40px;
+		left: 50%;
+		transform: translateX(-50%);
+		z-index: 1;
+	}
+	.buttom_more {
+		background: url(../images/common/ic_plus.png) center center no-repeat;
+		background-size: auto 32px;
+		background-color: #fff;
+		height: 56px;
+		width: 56px;
+		-webkit-border-radius: 100px;
+		-moz-border-radius: 100px;
+		border-radius: 100px;
+		box-shadow: 0px 0px 14px 2px rgba(195, 195, 195, 0.44);
+		-moz-box-shadow: 0px 0px 14px 2px rgba(195, 195, 195, 0.44);
+		-webkit-box-shadow: 0px 0px 14px 2px rgba(195, 195, 195, 0.44);
+		position: absolute;
+		bottom: -24px;
+		left: 50%;
+		transform: translateX(-50%);
+		z-index: 1;
+	}
+	.buttom_more:hover {
+		height: 55px;
+		width: 55px;
+		box-shadow: 0px 0px 6px 1px #eaeaea inset;
+		-moz-box-shadow: 0px 0px 6px 1px rgba(154, 154, 154, 0.41) inset;
+		-webkit-box-shadow: 0px 0px 6px 1px rgba(154, 154, 154, 0.41) inset;
+		cursor: pointer;
+	}
 }
 
+/* sec_new */
+#sec_new {
+	.inner_new {
+		max-width: 1030px;
+		margin: 0 auto;
+		min-height: 200px;
+		padding: 0 1% 10px;
+		&:before {
+			background-color: #e2e2e2;
+			content: "";
+			height: 1px;
+			width: 100%;
+			position: absolute;
+			top: 12px;
+			left: 0;
+			z-index: 2;
+		}
+	}
+	.bg_gray {
+		padding-top: 14px;
+		position: relative;
+	}
+}
 
+/* common */
+//layout
+.bg_pattern_blue {
+	background: url(../images/common/bg_pattern_blue.jpg) 0 0 repeat;
+	min-height: 200px;
+	padding: 20px 0;
+}
+.bg_gray {
+	background-color: rgba(243, 243, 243, 0.68);
+}
+
+.wrp_box_ex {
+	padding-top: 10px;
+	.box_ex {
+		background-color: #fff;
+		width: 32%;
+		margin-left: 2%;
+		padding: 0 0 6px;
+		float: left;
+		-webkit-border-radius: 9px;
+		-moz-border-radius: 9px;
+		border-radius: 9px;
+		box-shadow: 0px 0px 14px 2px rgba(195, 195, 195, 0.22);
+		-moz-box-shadow: 0px 0px 14px 2px rgba(195, 195, 195, 0.22);
+		-webkit-box-shadow: 0px 0px 14px 2px rgba(195, 195, 195, 0.22);
+		&:first-child{
+			margin-left: 0;
+		}
+		.box_liquid {
+			padding-top: 172px;
+			margin: 0 3.5%;
+			position: relative;
+			top: -13px;
+			-webkit-border-radius: 10px;
+			-moz-border-radius: 10px;
+			border-radius: 10px;
+			box-shadow: 0px 0px 14px 2px rgba(195, 195, 195, 0.44);
+			-moz-box-shadow: 0px 0px 14px 2px rgba(195, 195, 195, 0.44);
+			-webkit-box-shadow: 0px 0px 14px 2px rgba(195, 195, 195, 0.44);
+			&.new:before {
+				background: url(../images/common/ic_flag_new.png) center left no-repeat;
+				background-size: 47px auto;
+				width: 47px;
+				height: 47px;
+				content: "";
+				position: absolute;
+				top: -2px;
+				right: -3px;
+				z-index: 1;
+			}
+		}
+		.box_txt_ex {
+			padding: 0 6%;
+			text-align: left;
+			position: relative;
+			top: -6px;
+			color: #a0a0a0;
+			.tl_ex {
+				margin-bottom: 4px;
+				font-size: 18px;
+				color: #4cc013;
+				line-height: 1.25em;
+			}
+			.txt_ex {
+				height: 3em;
+				font-size: 12px;
+				line-height: 1.45em;
+				overflow: hidden;
+				text-overflow: ellipsis;
+				display: -webkit-box;
+		    -webkit-box-orient: vertical;
+		    -webkit-line-clamp: 2;
+			}
+			.box_ic {
+				margin-bottom: 12px;
+				.ic_ex {
+					margin-left: 1px;
+					padding: 2px 6px;
+					display: inline-block;
+					border: 1px solid #98e672;
+					-webkit-border-radius: 3px;
+					-moz-border-radius: 3px;
+					border-radius: 3px;
+					font-size: 10px;
+					color: #4cc013;
+					&:first-child {
+						margin-left: 0;
+					}
+				}
+			}
+			.wrp_info {
+				margin-bottom: 10px;
+				.tl_name {
+					font-weight: normal;
+					font-size: 14px;
+					padding-bottom: 2px;
+					border-bottom: 1px dotted #ddd;
+				}
+				.txt_info {
+					margin-right: 4px;
+					display: inline-block;
+					font-size: 10px;
+					&.en {
+						background: url(../images/common/ic_en.png)0 center no-repeat;
+						background-size: auto 16px;
+						padding-left: 15px;
+					}
+					&.pin {
+						background: url(../images/common/ic_pin.png)0 center no-repeat;
+						background-size: auto 15px;
+						padding-left: 14px;
+					}
+					&.train {
+						background: url(../images/common/ic_train.png)0 center no-repeat;
+						background-size: auto 13px;
+						padding-left: 13px;
+					}
+				}
+			}
+		}
+	}
+}
+
+//tl
+.tl_ic {
+	font-size: 24px;
+	font-weight: normal;
+	letter-spacing: -2px;
+	color: #343434;
+	text-align: left;
+}
+.tl_ic span {
+	position: relative;
+	top: -20px;
+}
+.tl_ic .ic_large {
+	position: relative;
+}
+.tl_ic img {
+	vertical-align: bottom;
+}
 
 /* txt */
 .kana {
@@ -295,7 +499,51 @@ header {
 	letter-spacing: -0.1em;
 }
 
-	@media (max-width: 480px) {
+/* btn */
+.btn_basic {
+	width: 100%;
+	display: table;
+	margin: 0 auto;
+	a {
+		background-color: #07b1c6;
+		width: 100%;
+		padding: 10px 5% 10px 10%;
+		display: block;
+		-webkit-border-radius: 30px;
+		-moz-border-radius: 30px;
+		border-radius: 30px;
+		color: #fff;
+		text-align: center;
+		span {
+			background: url(../images/common/ic_triangle.png) left 2px center no-repeat;
+			background-size: auto 10px;
+			padding-left: 20px;
+			position: relative;
+			left: -10px;
+		}
 	}
-		@media (max-width: 768px) {
+}
+
+
+	@media (max-width: 768px) {
+		.wrp_box_ex {
+			.box_ex {
+				background-color: #fff;
+				width: 49%;
+				margin: 0 0 30px 2%;
+				&:nth-child(2n+1) {
+					margin-left: 0;
+				}
+			}
+		}
+	}
+		@media (max-width: 480px) {
+			.wrp_box_ex {
+				.box_ex {
+					background-color: #fff;
+					width: 100%;
+					margin: 0 0 30px;
+					float: none;
+				}
+			}
 		}
