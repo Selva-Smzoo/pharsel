@@ -3,7 +3,6 @@
 ------------------------------------------------------------------------*/
 
 $(function(){
-
   $('.effect div, .effect i').css("opacity","0");
   $(window).scroll(function (){
     $(".effect").each(function(){
@@ -54,6 +53,23 @@ $(function(){
 			return false;
 	 });
 
+	 jQuery('a[href^=#]').click(function() {
+			var speed = 400;
+			var href= jQuery(this).attr("href");
+			var target = jQuery(href == "#" || href == "" ? 'html' : href);
+			var position = target.offset().top;
+			jQuery('body,html').animate({scrollTop:position}, speed, 'swing');
+			return false;
+	 });
+
+	 $('.boxLink').click(function() {
+		 window.location = $(this).find('a').attr('href');
+		 return false;
+	 });
+
+	 //ハンバーガーメニュー
+	 $(".drawer").drawer();
+
 	//active設定
 	$(window).bind("load", function(){
 	  if(document.URL.match("/searc/")) {
@@ -90,13 +106,14 @@ $(function(){
 		}
 		startPos = value;
 	});
+
 });
 
 $(window).on('load', function () {
   var $body = $('body'),
       $navTypeA = $('#nav_main'),
       navTypeAOffsetTop = $navTypeA.offset().top;
-  
+
   $(window).on('scroll', function () {
     if($(this).scrollTop() > navTypeAOffsetTop) {
       $body.addClass('is-fixed');
@@ -104,4 +121,32 @@ $(window).on('load', function () {
       $body.removeClass('is-fixed');
     }
   });
+
+	var menuHeight = $(".wrp_header_sub").height();
+	var startPos = 0;
+	$(window).scroll(function(){
+	  var currentPos = $(this).scrollTop();
+	  if (currentPos > startPos) {
+	    if($(window).scrollTop() >= 200) {
+	      $(".wrp_header_sub").css("top", "-" + menuHeight + "px");
+				$(".drawer-toggle").css("top", "-" + menuHeight + "px");
+	    }
+	  } else {
+	    $(".wrp_header_sub").css("top", 0 + "px");
+			$(".drawer-toggle").css("top", 0 + "px");
+	  }
+	  startPos = currentPos;
+	});
+
+	$(".accordion").on("click",function(){
+		$(this).next().slideToggle("fast");
+		$(this).toggleClass("clicked");
+	});
+
+	$("input[type='radio']").change(function(){
+			if($(this).is(":checked")){
+					$('.radio_bg').removeClass("radio_on");
+					$(this).parent().addClass("radio_on");
+			}
+	});
 });

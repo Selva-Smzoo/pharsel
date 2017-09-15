@@ -1,0 +1,46 @@
+@media (max-width: 480px) {
+	.wrp_box_ex {
+		.box_ex {
+			background-color: #fff;
+			width: 100%;
+			margin: 0 0 40px;
+			float: none;
+		}
+	}
+
+	/* special */
+	#special {
+		.bg_special {
+			background: url(../images/top/bg_special.jpg) 0 0 no-repeat;
+			background-size: cover;
+			padding: 60px 0;
+		}
+		.inner_special {
+			.ic_special {
+			}
+			.box_img {
+				width: 100%;
+				float: none;
+				margin-bottom: 4px;
+				.box_liquid {
+					top: 0;
+				}
+			}
+			.box_txt {
+				width: 100%;
+				margin-left: 0%;
+				float: none;
+				text-align: center;
+				img {
+					margin-bottom: 4px;
+				}
+				.btn_basic {
+					width: auto;
+					min-width: 210px;
+					display: inline-block;
+					float: none;
+				}
+			}
+		}
+	}
+}

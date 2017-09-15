@@ -1,0 +1,109 @@
+@media (max-width: 768px) {
+  #fv {
+    background: url(../images/top/top_bg_fv1.jpg) center center no-repeat;
+    background-size: cover;
+    min-height: 1px;
+  }
+
+  #nav_sub {
+    display: none;
+  }
+
+  .logo_fv {
+    display: none;
+  }
+
+  .inner_fv .sns_fv {
+    display: none;
+  }
+
+  .wrp_box_fv {
+    bottom: 36px;
+  }
+
+  .nav_header_small li a {
+    background-size: auto 8px;
+    padding: 2px 6px 2px 8px;
+  }
+
+  .wrp_header_sub {
+    background-color: #333436;
+    height: 52px;
+    width: 100%;
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    box-shadow: 0px 2px 14px 0px rgba(128, 128, 128, 0.8);
+    -moz-box-shadow: 0px 2px 14px 0px rgba(128, 128, 128, 0.8);
+    -webkit-box-shadow: 0px 2px 14px 0px rgba(128, 128, 128, 0.8);
+    transition: .3s;
+  }
+
+  .wrp_box_ex .box_ex {
+    background-color: #fff;
+    width: 49%;
+    margin: 0 0 30px 2%;
+  }
+  .wrp_box_ex .box_ex:nth-child(2n+1) {
+    margin-left: 0;
+  }
+
+  #nav_main {
+    display: none;
+  }
+
+  footer #pharsel .box_left {
+    width: 100%;
+    float: none;
+    text-align: center;
+  }
+  footer #pharsel .box_right {
+    width: 100%;
+    float: none;
+  }
+  footer #pharsel .nav_footer {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+  footer #pharsel .nav_footer li {
+    background: #505050;
+    margin-bottom: 6px;
+    float: none;
+    display: inline-block;
+  }
+  footer #pharsel .nav_footer li a {
+    background-size: auto 8px;
+    padding: 2px 16px 2px 11px;
+    font-size: 12px;
+  }
+  footer #selva .box_left {
+    width: 100%;
+    padding-left: 0;
+    float: none;
+    text-align: center;
+  }
+  footer #selva .box_right {
+    float: none;
+  }
+  footer #selva .box_right .osaka,
+  footer #selva .box_right .tokyo {
+    margin: 0 auto 10px;
+    font-size: 13px;
+  }
+  footer #selva .box_right .osaka .txt_selva span,
+  footer #selva .box_right .tokyo .txt_selva span {
+    font-size: 13px;
+  }
+  footer #selva .box_right .contact {
+    font-size: 12px;
+  }
+  footer #selva .sns_fv {
+    text-align: center;
+  }
+  footer #selva .sns_fv li {
+    float: none;
+  }
+}
