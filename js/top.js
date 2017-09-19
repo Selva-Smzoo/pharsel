@@ -16,16 +16,16 @@ $(function(){
 				}
 			};
 
-			var $el = $("#fv").bgswitcher({
-			  images: [
-					"images/top/top_bg_fv1.jpg", "images/top/top_bg_fv2.jpg", "images/top/top_bg_fv1.jpg"
-				],
-				effect: "fade",
-				easing: "swing",
-				interval: 4000,
-				duration: 3000,
-				loop: true
-			});
+			// var $el = $("#fv").bgswitcher({
+			//   images: [
+			// 		"images/top/top_bg_fv1.jpg", "images/top/top_bg_fv1.jpg", "images/top/top_bg_fv1.jpg"
+			// 	],
+			// 	effect: "fade",
+			// 	easing: "swing",
+			// 	interval: 4000,
+			// 	duration: 3000,
+			// 	loop: true
+			// });
 
 			$("button.btn1").on("click", function() {
 			  $el.bgswitcher("select", 0);

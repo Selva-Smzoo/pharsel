@@ -101,9 +101,9 @@ header {
   background-color: rgba(0, 0, 0, 0.74);
   width: 100%;
   border-top: 1px solid #07b1c6;
-  box-shadow: 0px 2px 14px 0px rgba(128, 128, 128, 0.8);
-  -moz-box-shadow: 0px 2px 14px 0px rgba(128, 128, 128, 0.8);
-  -webkit-box-shadow: 0px 2px 14px 0px rgba(128, 128, 128, 0.8);
+  box-shadow: 0px 2px 14px 0px rgba(19, 19, 19, 0.54);
+  -moz-box-shadow: 0px 2px 14px 0px rgba(19, 19, 19, 0.54);
+  -webkit-box-shadow: 0px 2px 14px 0px rgba(19, 19, 19, 0.54);
 }
 
 #nav_sub .inner_nav_sub {
@@ -262,7 +262,7 @@ header {
   z-index: 1;
 }
 .wrp_box_fv .wrp_box_txt {
-  padding: 0 0 3% 5%;
+  padding: 0 0 10% 5%;
 }
 .wrp_box_fv .wrp_box_txt .tl_fv {
   font-size: 52px;
@@ -281,7 +281,7 @@ header {
   -webkit-box-shadow: 0px 0px 14px 2px rgba(195, 195, 195, 0.44);
 }
 .wrp_box_fv .wrp_search_box .search_box_top {
-  background-color: rgba(236, 236, 236, 0.87);
+  background-color: rgba(236, 236, 236, 0.69);
   padding: 10px 4px 6px;
   -webkit-border-radius: 10px 10px 0 0;
   -moz-border-radius: 10px 10px 0 0;
@@ -290,7 +290,7 @@ header {
   text-align: center;
 }
 .wrp_box_fv .wrp_search_box .search_box_bototm {
-  background-color: rgba(247, 247, 247, 0.88);
+  background-color: rgba(247, 247, 247, 0.73);
   padding: 20px 2% 17px;
   position: relative;
   -webkit-border-radius: 0 0 10px 10px;
@@ -348,6 +348,7 @@ header {
   z-index: 2;
 }
 #sec_new .bg_gray {
+  min-height: 100px;
   padding-top: 14px;
   position: relative;
 }
@@ -542,7 +543,7 @@ header {
   padding-left: 14px;
 }
 .wrp_box_ex .box_ex .box_txt_ex .wrp_info .txt_info.train {
-  background: url(../images/common/ic_train.png) 0 center no-repeat;
+  background: url(../images/common/ic_train.png) left 0 center no-repeat;
   background-size: auto 13px;
   padding-left: 13px;
 }
@@ -663,7 +664,7 @@ form .wrp_txt {
 }
 
 form .submit-container {
-  width: 200px;
+  width: 220px;
   margin: 8px auto 10px;
   float: left;
   text-align: right;
@@ -768,7 +769,7 @@ form .submit-container {
 
 /* 表示されるオプションスタイル */
 .select-1 select * {
-  background: #242424;
+  background: #3d3d3c;
   color: #fff;
   text-shadow: none;
 }
@@ -777,6 +778,10 @@ label,
 input,
 select {
   border: none;
+}
+
+.submit-container .btn_basic {
+  min-width: 1px;
 }
 
 .wrp_word input[type="text"]:focus {

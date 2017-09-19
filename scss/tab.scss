@@ -1,8 +1,11 @@
 @media (max-width: 768px) {
 	#fv {
-		background: url(../images/top/top_bg_fv1.jpg) center center no-repeat;
+		background: url(../images/top/top_bg_fv1.jpg);
+		background-position: center center;
+		background-repeat: no-repeat;
 		background-size: cover;
 		min-height: 1px;
+		height: 300px;
 	}
 
 	#nav_sub {
@@ -15,7 +18,17 @@
 		display: none;
 	}
 	.wrp_box_fv {
-		bottom: 30px;
+		position: absolute;
+		top: 54%;
+		left: 50%;
+		-webkit-transform: translate(-50%,-50%);
+		transform: translate(-50%,-50%);
+		.wrp_box_txt {
+			padding: 0 2%;
+			.tl_fv {
+				font-size: 40px;
+			}
+		}
 	}
 
 	.nav_header_small li a {

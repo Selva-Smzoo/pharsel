@@ -1,0 +1,149 @@
+@charset "UTF-8";
+/* ===================================================================
+ CSS information
+ author     : SELVA Co., Ltd.
+ style info : lowerpage(下層ページ共通)
+=================================================================== */
+#fv {
+  background: url(../images/top/top_bg_fv1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  width: 100%;
+  height: 500px;
+  position: relative;
+  text-align: left;
+  vertical-align: baseline;
+}
+
+/* fv */
+.pagetop {
+  width: 70px;
+  height: 70px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 120;
+  transition: all 0.6s ease;
+  -webkit-transition: all 0.6s ease;
+}
+.pagetop img {
+  width: 100%;
+  transition: .85s;
+  -webkit-transform: rotateY(0deg);
+  transform: rotateY(0deg);
+}
+.pagetop:hover img {
+  -webkit-transform: rotateY(360deg);
+  transform: rotateY(360deg);
+}
+
+.inner_fv {
+  max-width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 4px 0 0;
+  position: relative;
+}
+
+.pager_fv button {
+  width: 30px;
+  height: 30px;
+  background-color: transparent !important;
+  background: url(../images/common/pager_off.png) center center no-repeat;
+  background-size: auto 26px;
+  padding: 0 !important;
+  margin: 3px;
+  border: none !important;
+}
+
+.pager_fv button:hover {
+  background: url(../images/common/pager_on.png) center center no-repeat;
+  background-size: auto 26px;
+}
+
+.pager_fv button:hover {
+  cursor: pointer;
+}
+
+.wrp_box_fv .wrp_box_txt .tl_fv {
+  font-size: 52px;
+  line-height: 1.3em;
+  text-align: center;
+}
+.wrp_box_fv .wrp_box_txt .tl_fv .kana {
+  letter-spacing: 1px;
+}
+
+#breadcomb {
+  background-color: #fff;
+  width: 100%;
+  max-width: 1080px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+
+#breadcomb ul {
+  padding: 10px 2px 6px;
+}
+
+#breadcomb ul li {
+  background-image: url(../images/common/arrow_bread.png);
+  background-repeat: no-repeat;
+  background-size: 7px auto;
+  background-position: left top 3px;
+  padding: 0 0 0 12px;
+  float: left;
+  color: #10b7cb;
+  font-size: 13px;
+}
+#breadcomb ul li a {
+  color: #10b7cb;
+  text-decoration: underline;
+}
+#breadcomb ul li:first-child {
+  background-image: url(../images/common/ic_home.png);
+  background-position: left top;
+  margin-right: 10px;
+  background-size: contain;
+  padding: 0 0 0 24px;
+  text-decoration: none;
+}
+
+/* layout */
+.bg_wave {
+  background-color: #f3f1ed;
+  min-height: 100px;
+  width: 100%;
+  padding: 25px 0;
+  position: relative;
+}
+.bg_wave:before {
+  background-image: url(../images/common/bg_wave.png);
+  background-repeat: repeat-x;
+  width: 100%;
+  height: 20px;
+  position: absolute;
+  top: -20px;
+  left: 0;
+  z-index: 1;
+  content: "";
+}
+.bg_wave .inner {
+  background-color: #fff;
+  width: 100%;
+  max-width: 1080px;
+  min-height: 100px;
+  margin: 0 auto;
+  padding: 20px 5%;
+  -o-border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  border-radius: 7px;
+  box-shadow: 0px 0px 14px 2px rgba(218, 218, 218, 0.1);
+  -moz-box-shadow: 0px 0px 14px 2px rgba(218, 218, 218, 0.1);
+  -webkit-box-shadow: 0px 0px 14px 2px rgba(218, 218, 218, 0.1);
+}

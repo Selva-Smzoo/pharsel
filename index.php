@@ -1,8 +1,8 @@
 <?php $page = 'top'; include "./config/include.php"; ?>
 
 <!-- *** stylesheet *** -->
-<link href="./css/<?php echo $page; ?>.css" rel="stylesheet" type="text/css" media="all">
 <?php include "./templates/common_css.php"; ?>
+<link href="./css/<?php echo $page; ?>.css" rel="stylesheet" type="text/css" media="all">
 <link href="./js/bxslider/jquery.bxslider.css" rel="stylesheet" type="text/css" media="all">
 <link href="./js/textillate-master/animate.css" rel="stylesheet" type="text/css" media="all">
 
@@ -29,8 +29,8 @@
 					<img src="./images/common/logo_fotter_pharsel.png" alt="薬剤師のための求人サイト ファーセル">
 				</h2>
 				<ul class="sns_fv cf">
-					<li><a href="#"><img src="./images/common/ic_footer_facebook.png" alt="facebook" width="50" height="50"></a></li>
-					<li><a href="#"><img src="./images/common/ic_footer_twitter.png" alt="twitter" width="50" height="50"></a></li>
+					<li><a href="#"><img src="./images/common/ic_footer_facebook.png" alt="facebook" width="41" height="41"></a></li>
+					<li><a href="#"><img src="./images/common/ic_footer_twitter.png" alt="twitter" width="41" height="41"></a></li>
 				</ul>
 			</div>
 		</div>
@@ -287,6 +287,6 @@
 	</section>
 
 	<?php include "./templates/footer.php"; ?>
-</div>
+</div><!-- /#wrapper -->
 </body>
 </html>

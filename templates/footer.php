@@ -2,7 +2,7 @@
 	<section id="pharsel">
 		<div class="inner cf">
 			<div class="box_left">
-				<img src="./images/common/logo_fotter_pharsel.png" alt="Pharsel" height="53" width="137" class="logo_pharsel">
+				<img src="<?php echo location; ?>images/common/logo_fotter_pharsel.png" alt="Pharsel" height="53" width="137" class="logo_pharsel">
 			</div>
 			<div class="box_right">
 				<nav class="cf">
@@ -14,8 +14,6 @@
 						<li><a href="<?php echo location; ?>login/">ログイン</a></li>
 					</ul>
 				</nav>
-
-
 			</div>
 		</div>
 		<p class="btn_basic"><a href="#"><span>お問い合わせ</span></a></p>
@@ -32,11 +30,11 @@
 	<section id="selva">
 		<div class="inner cf">
 			<div class="box_left cf">
-				<img src="./images/common/logo_footer_selva.png" alt="SELVA" width="140">
+				<img src="<?php echo location; ?>images/common/logo_footer_selva.png" alt="SELVA" width="140">
 				<p class="txt_url"><a href="https://www.selva-i.co.jp/company/">https://www.selva-i.co.jp/company/</a></p>
 				<ul class="sns_fv cf">
-					<li><a href="#"><img src="./images/common/ic_footer_facebook.png" alt="facebook" width="50" height="50"></a></li>
-					<li><a href="#"><img src="./images/common/ic_footer_twitter.png" alt="twitter" width="50" height="50"></a></li>
+					<li><a href="#"><img src="<?php echo location; ?>images/common/ic_footer_facebook.png" alt="facebook" width="50" height="50"></a></li>
+					<li><a href="#"><img src="<?php echo location; ?>images/common/ic_footer_twitter.png" alt="twitter" width="50" height="50"></a></li>
 				</ul>
 			</div>
 			<div class="box_right">
@@ -59,6 +57,5 @@
 			</div>
 		</div>
 	</section>
-
 	<p class="txt_fotter_bottom">Copyright © Selva.All rights reserved.</p>
 </footer>
