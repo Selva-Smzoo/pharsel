@@ -17,3 +17,52 @@
 	overflow: hidden;
 	vertical-align: baseline;
 }
+
+/* fv */
+.pagetop {
+	width: 70px;
+	height: 70px;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	z-index: 120;
+	transition: all 0.6s ease;
+	-webkit-transition: all 0.6s ease;
+	img {
+		width: 100%;
+		transition: .85s;
+		-webkit-transform: rotateY( 0deg );
+		transform: rotateY( 0deg );
+	}
+	&:hover {
+		img {
+			-webkit-transform: rotateY( 360deg );
+			transform: rotateY( 360deg );
+		}
+	}
+}
+
+.inner_fv {
+	max-width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+	padding: 4px 0 0;
+	position: relative;
+}
+.pager_fv button {
+	width: 30px;
+	height: 30px;
+	background-color: transparent!important;
+	background: url(../images/common/pager_off.png) center center no-repeat;
+	background-size: auto 26px;
+	padding: 0!important;
+	margin: 3px;
+	border: none!important;
+}
+.pager_fv button:hover {
+	background: url(../images/common/pager_on.png) center center no-repeat;
+	background-size: auto 26px;
+}
+.pager_fv button:hover {
+	cursor: pointer;
+}

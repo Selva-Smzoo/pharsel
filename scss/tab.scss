@@ -15,7 +15,7 @@
 		display: none;
 	}
 	.wrp_box_fv {
-		bottom: 36px;
+		bottom: 30px;
 	}
 
 	.nav_header_small li a {
@@ -130,5 +130,9 @@
 			.nav_header_small {
 			}
 		}
+	}
+	
+	form .submit-container {
+		float: none;
 	}
 }

@@ -18,7 +18,7 @@
   }
 
   .wrp_box_fv {
-    bottom: 36px;
+    bottom: 30px;
   }
 
   .nav_header_small li a {
@@ -104,6 +104,10 @@
     text-align: center;
   }
   footer #selva .sns_fv li {
+    float: none;
+  }
+
+  form .submit-container {
     float: none;
   }
 }

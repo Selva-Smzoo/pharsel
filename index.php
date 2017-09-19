@@ -118,10 +118,9 @@
 										<label for="select_1" class="select-1">
 											<select name="select_1" id="select_1">
 												<option value="1">大阪市</option>
-												<option value="2">大阪市</option>
-												<option value="3">大阪市</option>
-												<option value="4">大阪市</option>
-												<option value="5">大阪市</option>
+												<option value="2">堺市</option>
+												<option value="3">富田林市</option>
+												<option value="4">吹田市</option>
 											</select>
 										</label>
 									</div>
@@ -131,18 +130,21 @@
 									</div>
 
 									<div class="wrp_cate">
-										<label><input type="checkbox">調剤薬局</label>
-										<label><input type="checkbox">病院・クリニック</label>
-										<label><input type="checkbox">ドラックストア</label>
-										<label><input type="checkbox">企業（RCA/MR）</label>
+										<ul class="bg_checkbox">
+											<li><input type="checkbox" checked><label>調剤薬局</label></li>
+											<li><input type="checkbox"><label>病院・クリニック</label></li>
+											<li><input type="checkbox"><label>ドラックストア</label></li>
+											<li><input type="checkbox"><label>企業（RCA/MR）</label></li>
+										</ul>
 									</div>
 								</div>
-
 								<div class="submit-container">
 									<input class="btn_basic" type="submit" value="検索する"></input>
 								</div>
 							</div>
 						</form>
+						
+						<p class="txt_more"><img src="./images/common/txt_more.png" alt="もっと詳しい条件で検索する" width="176"></p>
 
 					</div>
 					<p class="buttom_more"></p>
