@@ -29,7 +29,7 @@
 			</div>
 		</div>
 	</section><!-- /#fv -->
-	
+
 	<section id="breadcomb">
 		<ul class="cf">
 			<li><a href="../">HOME</a></li>
@@ -42,10 +42,12 @@
 				<div class="inner_new">
 					<h2 class="tl_ic"><img src="../images/common/ic_special.png" class="ic_large"><span>スペシャルコンテンツ</span></h2>
 				</div>
-				
+
 				<div class="bg_wave">
 					<div class="inner">
-						
+						<h3 class="tl_special">ここにコンテンツのタイトル</h3>
+						<p class="wrp_img_special"><img src="../images/common/sample_special.png" alt="サンプルイメージ"></p>
+						<p class="txt_small">若江岩田駅 徒歩2分！通勤の負担が軽減！ラッシュは無縁のマイカー通勤♪年収600万円も可若江岩田駅 徒歩2分！通勤の負担が軽減！ラッシュは無縁のマイカー通勤♪年収600万円も可</p>
 					</div>
 				</div>
 			</div>

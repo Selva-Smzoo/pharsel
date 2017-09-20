@@ -1,7 +1,6 @@
 @charset "UTF-8";
 /* ===================================================================
-CSS information
-
+ CSS information
  author     : SELVA Co., Ltd.
  style info : 基本・共通設定
 =================================================================== */
@@ -606,6 +605,27 @@ header {
   font-weight: normal;
   border-bottom: 1px solid #30aab9;
   letter-spacing: -1px;
+}
+
+.tl_special {
+  padding-bottom: 3px;
+  margin-bottom: 20px;
+  border-bottom: 1px dotted #ddd;
+  font-weight: normal;
+  font-size: 20px;
+  color: #636363;
+}
+.tl_special .ic {
+  width: 36px;
+  padding-right: 10px;
+}
+.tl_special.sub {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.tl_special.sub .ic {
+  width: 32px;
+  padding-right: 8px;
 }
 
 /* txt */

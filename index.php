@@ -143,7 +143,7 @@
 								</div>
 							</div>
 						</form>
-						
+
 						<p class="txt_more"><img src="./images/common/txt_more.png" alt="もっと詳しい条件で検索する" width="176"></p>
 
 					</div>
@@ -157,7 +157,7 @@
 		<div class="bg_pattern_blue">
 			<div class="bg_gray">
 				<div class="inner_new">
-					<h2 class="tl_ic"><img src="./images/common/ic_new.png" class="ic_large"><span>注目の新着求人</span><!--<img src="./images/top/tl_new.png" alt="注目の新着求人" height="27">--></h2>
+					<h2 class="tl_ic"><img src="./images/common/ic_new.png" class="ic_large"><span>注目の新着求人</span></h2>
 					<div class="wrp_box_ex cf">
 						<article class="box_ex">
 							<p class="box_liquid new boxLink">

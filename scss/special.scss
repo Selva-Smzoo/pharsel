@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* ===================================================================
+ CSS information
+ author     : SELVA Co., Ltd.
+ style info : special
+=================================================================== */
+@import "settings";
+
+#special {
+	#sec_new {
+		.bg_wave {
+			.inner {
+				text-align: left;
+				#main {
+					text-align: center;
+					padding-bottom: 60px;
+					border-bottom: 1px dotted #ddd;
+					.tl_special {
+						text-align: left;
+					}
+					.txt_date {
+						padding: 4px 0 4px 4px;
+						text-align: right;
+						float: right;
+						display: inline-block;
+						font-size: 13px;
+						color: #85ccff;
+					}
+				}
+				#bottom {
+					padding-top: 20px;
+					.box_content_bottom {
+						width: 50%;
+						padding: 1.5%;
+						float: left;
+						.inner_img {
+							width: 23%;
+							float: left;
+						}
+						.inner_txt {
+							width: 75%;
+							float: left;
+							.txt_date {
+								text-align: right;
+								color: #85ccff;
+								font-size: 13px;
+							}
+						}
+					}
+				}
+				.wrp_img_special {
+					margin: 0 10px 15px;
+					text-align: center;
+					position: relative;
+					display: inline-block;
+					img {
+						position: relative;
+						z-index: 2;
+						-o-border-radius: 5px;
+						-webkit-border-radius: 5px;
+						-moz-border-radius: 5px;
+						-ms-border-radius: 5px;
+						border-radius: 5px;
+					}
+					&:before {
+						background-color: #e0e0e0;
+				    background-color: rgba(224, 224, 224, 0.46);
+				    content: "";
+				    display: block;
+				    width: 104%;
+				    height: 86%;
+				    position: absolute;
+				    top: 39%;
+				    left: 50%;
+				    -webkit-transform: translate(-50%, -50%);
+				    transform: translate(-50%, -50%);
+				    z-index: 1;
+					}
+				}
+				.txt_small {
+					margin-bottom: 15px;
+					text-align: left;
+				}
+			}
+		}
+	}
+}

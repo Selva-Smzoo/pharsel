@@ -123,4 +123,19 @@
   form .submit-container {
     float: none;
   }
+
+  /* special */
+  #special #sec_new .bg_wave .inner #bottom .box_content_bottom {
+    width: 100%;
+    float: none;
+  }
+  #special #sec_new .bg_wave .inner #bottom .box_content_bottom .inner_img {
+    width: 100%;
+    float: left;
+    text-align: center;
+  }
+  #special #sec_new .bg_wave .inner #bottom .box_content_bottom .inner_txt {
+    width: 100%;
+    float: none;
+  }
 }
