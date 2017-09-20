@@ -47,6 +47,11 @@
 					<div class="inner">
 						<article id="main">
 							<h3 class="tl_special"><img src="../images/common/ic_special_small.png" class="ic">ここにコンテンツのタイトル<span class="txt_date">2017.09.09</span></h3>
+							<p class="txt_small">若江岩田駅 徒歩2分！通勤の負担が軽減！ラッシュは無縁のマイカー通勤♪年収600万円も可能です。若江岩田駅 徒歩2分！通勤の負担が軽減！ラッシュは無縁のマイカー通勤♪年収600万円も可能です。若江岩田駅 徒歩2分！通勤の負担が軽減！ラッシュは無縁のマイカー通勤♪年収600万円も可能です。</p>
+							<p class="wrp_img_special"><img src="../images/sample/sample_special.png" alt="サンプルイメージ"></p>
+							<p class="txt_small">若江岩田駅 徒歩2分！通勤の負担が軽減！ラッシュは無縁のマイカー通勤♪年収600万円も可能です。若江岩田駅 徒歩2分！通勤の負担が軽減！ラッシュは無縁のマイカー通勤♪年収600万円も可能です。若江岩田駅 徒歩2分！通勤の負担が軽減！ラッシュは無縁のマイカー通勤♪年収600万円も可能です。</p>
+							<p class="txt_small">若江岩田駅 徒歩2分！通勤の負担が軽減！ラッシュは無縁のマイカー通勤♪年収600万円も可能です。若江岩田駅 徒歩2分！通勤の負担が軽減！ラッシュは無縁のマイカー通勤♪年収600万円も可能です。若江岩田駅 徒歩2分！通勤の負担が軽減！ラッシュは無縁のマイカー通勤♪年収600万円も可能です。</p>
+
 							<p class="wrp_img_special"><img src="../images/sample/sample_special.png" alt="サンプルイメージ"></p>
 							<p class="wrp_img_special"><img src="../images/sample/sample_special.png" alt="サンプルイメージ"></p>
 							<p class="txt_small">若江岩田駅 徒歩2分！通勤の負担が軽減！ラッシュは無縁のマイカー通勤♪年収600万円も可能です。若江岩田駅 徒歩2分！通勤の負担が軽減！ラッシュは無縁のマイカー通勤♪年収600万円も可能です。若江岩田駅 徒歩2分！通勤の負担が軽減！ラッシュは無縁のマイカー通勤♪年収600万円も可能です。</p>
@@ -54,6 +59,27 @@
 						</article>
 
 						<article id="bottom" class="cf">
+							<div class="box_content_bottom">
+								<div class="inner_img">
+									<img src="../images/sample/sample_man.png" alt="サンプル人物イメージ" width="77">
+								</div>
+								<div class="inner_txt">
+									<h3 class="tl_special sub"><img src="../images/common/ic_special_small.png" class="ic">ここにコンテンツのタイトル</h3>
+									<p class="txt_small">若江岩田駅 徒歩2分！通勤の負担が軽減！ラッシュは無縁のマイカー通勤♪年収600万円も可能です。若江岩田駅 徒歩2分！通勤の負担が軽減！ラッシュは無縁のマイカー通勤♪年収600万円も可能です。</p>
+									<p class="txt_date">2017.09.09</p>
+								</div>
+							</div>
+							<div class="box_content_bottom cf">
+								<div class="inner_img">
+									<img src="../images/sample/sample_man.png" alt="サンプル人物イメージ" width="77">
+								</div>
+								<div class="inner_txt">
+									<h3 class="tl_special sub"><img src="../images/common/ic_special_small.png" class="ic">ここにコンテンツのタイトル</h3>
+									<p class="txt_small">若江岩田駅 徒歩2分！通勤の負担が軽減！ラッシュは無縁のマイカー通勤♪年収600万円も可能です。若江岩田駅 徒歩2分！通勤の負担が軽減！ラッシュは無縁のマイカー通勤♪年収600万円も可能です。</p>
+									<p class="txt_date">2017.09.09</p>
+								</div>
+							</div>
+
 							<div class="box_content_bottom">
 								<div class="inner_img">
 									<img src="../images/sample/sample_man.png" alt="サンプル人物イメージ" width="77">

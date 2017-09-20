@@ -36,7 +36,7 @@
 			<ul class="cf">
 				<li><a href="<?php echo location; ?>search/"><span>求人検索</span></a></li>
 				<li><a href="<?php echo location; ?>interview/"><span>インタビュー</span></a></li>
-				<li><a href="<?php echo location; ?>contents/"><span>スペシャルコンテンツ</span></a></li>
+				<li><a href="<?php echo location; ?>special/"><span>スペシャルコンテンツ</span></a></li>
 				<li><a href="<?php echo location; ?>entry/"><span>会員登録</span></a></li>
 				<li><a href="<?php echo location; ?>login/"><span>ログイン</span></a></li>
 			</ul>

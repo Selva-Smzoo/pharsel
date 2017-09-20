@@ -261,7 +261,7 @@ header {
   z-index: 1;
 }
 .wrp_box_fv .wrp_box_txt {
-  padding: 0 0 10% 5%;
+  padding: 0 0 3% 5%;
 }
 .wrp_box_fv .wrp_box_txt .tl_fv {
   font-size: 52px;
@@ -289,7 +289,7 @@ header {
   text-align: center;
 }
 .wrp_box_fv .wrp_search_box .search_box_bototm {
-  background-color: rgba(247, 247, 247, 0.73);
+  background-color: rgba(247, 247, 247, 0.85);
   padding: 20px 2% 17px;
   position: relative;
   -webkit-border-radius: 0 0 10px 10px;
@@ -618,7 +618,7 @@ header {
 
 .tl_special {
   padding-bottom: 3px;
-  margin-bottom: 28px;
+  margin-bottom: 20px;
   border-bottom: 1px dotted #ddd;
   font-weight: normal;
   font-size: 20px;
@@ -855,6 +855,7 @@ select {
 
 .bg_checkbox input[type="checkbox"]:checked + label {
   background-image: url(../images/common/pager_on.png);
+  color: #36b1a2;
 }
 
 .txt_more {
@@ -904,14 +905,20 @@ input.btn_basic:hover {
   -webkit-transition: all .5s ease;
 }
 .btn_basic a span {
-  background: url(../images/common/ic_triangle.png) left 2px center no-repeat;
+  background: url(../images/common/ic_triangle.png) no-repeat;
+  background-position: left 2px center;
   background-size: auto 10px;
   padding-left: 20px;
   position: relative;
   left: -10px;
+  transition: all .2s ease;
+  -webkit-transition: all .2s ease;
 }
 .btn_basic a:hover {
   background: transparent linear-gradient(to right, #80d9e0, #22a0af) repeat scroll 0% 0%;
+}
+.btn_basic a:hover span {
+  background-position: left 5px center;
 }
 
 .boxLink:hover {
@@ -1012,12 +1019,12 @@ footer #selva .box_right .contact li {
   font-size: 15px;
 }
 footer #selva .box_right .contact li:first-child {
-  background: url(../images/common/ic_footer_tel.png) 0 0 no-repeat;
-  background-size: auto 16px;
+  background: url(../images/common/ic_footer_tel.png) left 5px top 5px no-repeat;
+  background-size: auto 11px;
 }
 footer #selva .box_right .contact li:nth-child(2) {
-  background: url(../images/common/ic_footer_fax.png) 0 0 no-repeat;
-  background-size: auto 16px;
+  background: url(../images/common/ic_footer_fax.png) left 5px top 5px no-repeat;
+  background-size: auto 11px;
 }
 footer #selva .sns_fv {
   float: none;

@@ -47,11 +47,10 @@
 					</ul>
 				</div>
 				<div class="tokyo">
-					<p class="txt_selva">【大阪本社】<br>
-					<span>大阪市北区西天満1丁目7番20号 JIN・ORIXビル6階</span></p>
+					<p class="txt_selva">【東京本社】<br>
+					<span>東京都港区南青山2丁目11番13号 南青山ビル4階</span></p>
 					<ul class="contact">
-						<li>06-6366-7906</li>
-						<li>06-6366-7907</li>
+						<li>03-5843-1958</li>
 					</ul>
 				</div>
 			</div>
