@@ -97,7 +97,7 @@ header {
 }
 
 #nav_sub {
-  background-color: rgba(0, 0, 0, 0.74);
+  background-color: rgba(14, 14, 14, 0.9);
   width: 100%;
   border-top: 1px solid #07b1c6;
   box-shadow: 0px 2px 14px 0px rgba(19, 19, 19, 0.54);
@@ -439,6 +439,15 @@ header {
   background-color: rgba(243, 243, 243, 0.68);
 }
 
+.inner_lower {
+  background-color: #fff;
+}
+
+.wrap_tl_lower .tl_list {
+  position: relative;
+  z-index: 2;
+}
+
 .wrp_box_ex {
   padding-top: 10px;
 }
@@ -609,11 +618,12 @@ header {
 
 .tl_special {
   padding-bottom: 3px;
-  margin-bottom: 20px;
+  margin-bottom: 28px;
   border-bottom: 1px dotted #ddd;
   font-weight: normal;
   font-size: 20px;
   color: #636363;
+  letter-spacing: -0.5px;
 }
 .tl_special .ic {
   width: 36px;

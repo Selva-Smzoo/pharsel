@@ -40,6 +40,10 @@
 						.inner_txt {
 							width: 75%;
 							float: left;
+							.txt_small {
+								font-size: 12.5px;
+								line-height: 1.55em;
+							}
 							.txt_date {
 								text-align: right;
 								color: #85ccff;
@@ -49,7 +53,7 @@
 					}
 				}
 				.wrp_img_special {
-					margin: 0 10px 15px;
+					margin: 0 10px 18px;
 					text-align: center;
 					position: relative;
 					display: inline-block;

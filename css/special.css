@@ -38,13 +38,17 @@
   width: 75%;
   float: left;
 }
+#special #sec_new .bg_wave .inner #bottom .box_content_bottom .inner_txt .txt_small {
+  font-size: 12.5px;
+  line-height: 1.55em;
+}
 #special #sec_new .bg_wave .inner #bottom .box_content_bottom .inner_txt .txt_date {
   text-align: right;
   color: #85ccff;
   font-size: 13px;
 }
 #special #sec_new .bg_wave .inner .wrp_img_special {
-  margin: 0 10px 15px;
+  margin: 0 10px 18px;
   text-align: center;
   position: relative;
   display: inline-block;
