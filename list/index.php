@@ -168,6 +168,67 @@
 										<p class="btn_basic"><a href="<?php echo location; ?>search/"><span>詳細を見る</span></a></p>
 									</div>
 								</article>
+
+								<article class="box_ex">
+									<p class="box_liquid new boxLink">
+										<a href="<?php echo location; ?>search/"><img src="../images/sample/sample_new01.jpg"></a>
+									</p>
+									<div class="box_txt_ex">
+										<h3 class="tl_ex">高年収を実現！</h3>
+										<p class="txt_ex">《東大阪市》若江岩田駅 徒歩2分！通勤の負担が軽減！ラッシュは無縁のマイカー通勤♪年収600万円も可...</p>
+										<div class="box_ic">
+											<p class="ic_ex">時短勤務可</p>
+											<p class="ic_ex">福利厚生充実</p>
+										</div>
+										<div class="wrp_info">
+											<h4 class="tl_name">株式会社アイセイ薬局</h4>
+											<p class="txt_info en">350万～600万</p>
+											<p class="txt_info pin">大阪府大阪市</p>
+											<p class="txt_info train">JR新大阪駅</p>
+										</div>
+										<p class="btn_basic"><a href="<?php echo location; ?>search/"><span>詳細を見る</span></a></p>
+									</div>
+								</article>
+								<article class="box_ex">
+									<p class="box_liquid new boxLink">
+										<a href="<?php echo location; ?>search/"><img src="../images/sample/sample_new02.jpg"></a>
+									</p>
+									<div class="box_txt_ex">
+										<h4 class="tl_ex">高年収を実現！</h4>
+										<p class="txt_ex">《東大阪市》若江岩田駅 徒歩2分！通勤の負担が軽減！ラッシュは無縁のマイカー通勤♪年収600万円も可...</p>
+										<div class="box_ic">
+											<p class="ic_ex">時短勤務可</p>
+											<p class="ic_ex">福利厚生充実</p>
+										</div>
+										<div class="wrp_info">
+											<h5 class="tl_name">株式会社アイセイ薬局</h5>
+											<p class="txt_info en">350万～600万</p>
+											<p class="txt_info pin">大阪府大阪市</p>
+											<p class="txt_info train">JR新大阪駅</p>
+										</div>
+										<p class="btn_basic"><a href="<?php echo location; ?>search/"><span>詳細を見る</span></a></p>
+									</div>
+								</article>
+								<article class="box_ex">
+									<p class="box_liquid new boxLink">
+										<a href="<?php echo location; ?>search/"><img src="../images/sample/sample_new03.jpg"></a>
+									</p>
+									<div class="box_txt_ex">
+										<h4 class="tl_ex">高年収を実現！</h4>
+										<p class="txt_ex">《東大阪市》若江岩田駅 徒歩2分！通勤の負担が軽減！ラッシュは無縁のマイカー通勤♪年収600万円も可...</p>
+										<div class="box_ic">
+											<p class="ic_ex">時短勤務可</p>
+											<p class="ic_ex">福利厚生充実</p>
+										</div>
+										<div class="wrp_info">
+											<h5 class="tl_name">株式会社アイセイ薬局</h5>
+											<p class="txt_info en">350万～600万</p>
+											<p class="txt_info pin">大阪府大阪市</p>
+											<p class="txt_info train">JR新大阪駅</p>
+										</div>
+										<p class="btn_basic"><a href="<?php echo location; ?>search/"><span>詳細を見る</span></a></p>
+									</div>
+								</article>
 							</div>
 						</div>
 					</div>

@@ -55,6 +55,9 @@
 			background-color: #fff;
 			width: 49%;
 			margin: 0 0 30px 2%;
+			&:nth-child(3n+1) {
+				margin-left: 2%;
+			}
 			&:nth-child(2n+1) {
 				margin-left: 0;
 			}

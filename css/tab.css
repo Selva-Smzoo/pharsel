@@ -59,6 +59,9 @@
     width: 49%;
     margin: 0 0 30px 2%;
   }
+  .wrp_box_ex .box_ex:nth-child(3n+1) {
+    margin-left: 2%;
+  }
   .wrp_box_ex .box_ex:nth-child(2n+1) {
     margin-left: 0;
   }
