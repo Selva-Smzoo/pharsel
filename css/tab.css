@@ -124,6 +124,11 @@
     float: none;
   }
 
+  /* txt */
+  .tl_contens_lower {
+    width: 80%;
+  }
+
   /* special */
   #special #sec_new .bg_wave .inner #bottom .box_content_bottom {
     width: 100%;

@@ -33,14 +33,13 @@
 	<section id="breadcomb">
 		<ul class="cf">
 			<li><a href="../">HOME</a></li>
-			<li>スペシャルコンテンツ</li>
+			<li>求人一覧</li>
 		</ul>
 	</section>
 	<section id="sec_new">
 		<div class="bg_pattern_blue">
 			<div class="bg_gray">
 				<div class="inner_new">
-					<h2 class="tl_ic"><img src="../images/common/ic_special.png" class="ic_large"><span>スペシャルコンテンツ</span></h2>
 				</div>
 
 				<div class="bg_wave">

@@ -112,6 +112,27 @@
   text-decoration: none;
 }
 
+/* txt */
+.tl_contens_lower {
+  width: 600px;
+  margin: 0 auto 15px;
+  border-bottom: 1px dotted #ddd;
+}
+.tl_contens_lower .tl_list {
+  position: relative;
+  top: -13px;
+}
+
+.tl_search {
+  margin-bottom: 24px;
+  font-size: 14px;
+}
+.tl_search span {
+  padding-right: 6px;
+  font-size: 34px;
+  font-family: 'Avenir-Light','Century Gothic','Roboto','Yu Gothic','arial','arial unicode ms';
+}
+
 /* layout */
 .bg_wave {
   background-color: #fcf6f0;
