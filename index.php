@@ -82,7 +82,7 @@
 			</ul>
 
 			<div class="wrp_box_fv">
-				<div class="wrp_box_txt">
+				<div class="wrp_box_txt_top">
 					<h2 class="font_min tl_fv">
 						<img src="./images/top/tl_fv.png" alt="ファーセルを使ってスマート転職" width="600" class="img_tl_fv">
 						<!-- <span class="kana">ファーセル</span>を使って、<br>
@@ -147,7 +147,7 @@
 						<p class="txt_more"><img src="./images/common/txt_more.png" alt="もっと詳しい条件で検索する" width="176"></p>
 
 					</div>
-					<p class="buttom_more"></p>
+					<button class="buttom_more"></button>
 				</div>
 			</div>
 		</div>

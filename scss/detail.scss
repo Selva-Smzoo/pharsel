@@ -1,0 +1,158 @@
+@charset "utf-8";
+/* ===================================================================
+ CSS information
+ author     : SELVA Co., Ltd.
+ style info : detail
+=================================================================== */
+@import "settings";
+
+.imb_bottom {
+	background: url(../images/common/img_bottom_detail.jpg) center center repeat-x;
+	background-size: auto 148px;
+	padding-top: 148px;
+}
+.bg_gray {
+	padding-bottom: 15px;
+}
+.bg_pattern_blue {
+	padding-top: 40px;
+	padding-bottom: 0;
+}
+.tl_contens_lower {
+	margin-bottom: 24px;
+}
+.wrap_dl_detail {
+
+}
+.dl_detail {
+	color: #8e8e8e;
+	border-bottom: 1px dotted #eee;
+	dt,
+	dd {
+		display: inline-block;
+		vertical-align: baseline;
+		padding: 12px 4px 5px;
+	}
+	dt {
+		min-width: 73px;
+		padding: 0 3px 0 27px;
+		font-size: 15px;
+		background-position: left center;
+		background-repeat: no-repeat;
+		letter-spacing: 1px;
+		&.gyou {
+			background-image: url(../images/ic/ic_gyou.png);
+		}
+		&.shoku {
+			background-image: url(../images/ic/ic_shoku.png);
+		}
+		&.kyuu {
+			background-image: url(../images/ic/ic_kyuu.png);
+		}
+		&.shika {
+			background-image: url(../images/ic/ic_shika.png);
+		}
+		&.time {
+			background-image: url(../images/ic/ic_time.png);
+		}
+		&.off {
+			background-image: url(../images/ic/ic_off.png);
+		}
+	}
+	dd {
+		font-size: 13px;
+		color: #ababab;
+	}
+}
+
+.inner_basic {
+	background-color: #fff;
+	padding: 20px 2% 16px;
+	-o-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-ms-border-radius: 8px;
+	border-radius: 8px;
+	box-shadow: 0px 0px 10px 1px rgba(222, 222, 222, 0.44);
+  -moz-box-shadow: 0px 0px 10px 1px rgba(222, 222, 222, 0.44);
+  -webkit-box-shadow: 0px 0px 10px 1px rgba(222, 222, 222, 0.44);
+	.box_txt_ex,
+	.box_liquid {
+		top: 0;
+	}
+	.box_liquid {
+		margin: 0;
+		padding-top: 200px;
+	}
+
+	.box_txt_ex .box_ic {
+		margin-bottom: 2px;
+	}
+
+	.btn_basic {
+		margin: 0 0 0 auto;
+	}
+
+	.wrp_photo,
+	.wrp_txt {
+		float: left;
+	}
+	.wrp_photo {
+		width: 40%;
+	}
+	.wrp_txt {
+		width: 60%;
+		padding-top: 20px;
+	}
+}
+
+.wrap_map {
+	background: url(../images/common/bg_pattern_blue.jpg) 0 0 repeat;
+	padding-bottom: 32px;
+	.inner {
+		position: relative;
+	}
+}
+
+/* section */
+#detail #sec_detail .bg_pattern_blue {
+	padding-top: 40px;
+}
+#sec_req {
+	.wrap_inner_basic {
+		background-color: rgba(251, 249, 248, 0.72);
+		padding: 20px;
+		display: inline-grid;
+		margin: 0 auto;
+		position: relative;
+			-webkit-border-radius: 6px;
+		-moz-border-radius: 6px;
+		-ms-border-radius: 6px;
+		border-radius: 6px;
+		box-shadow: 0px 0px 10px 1px rgba(121, 121, 121, 0.17);
+		-moz-box-shadow: 0px 0px 10px 1px rgba(121, 121, 121, 0.17);
+		-webkit-box-shadow: 0px 0px 10px 1px rgba(121, 121, 121, 0.17);
+		&:before {
+			content: url(../images/common/ic_rec.png);
+			position: absolute;
+			top: -39px;
+			left: 50%;
+			transform: translateX(-50%);
+			z-index: 2;
+		}
+	}
+	.inner_basic {
+		background-color: rgba(255, 255, 255, 0.67);
+		min-width: 300px;
+		max-width: none;
+		padding: 6px 10px 20px;
+		display: table;
+		margin: 0 auto;
+		text-align: left;
+	}
+}
+#sec_interview {
+	.bg_pattern_blue {
+		padding-bottom: 20px;
+	}
+}

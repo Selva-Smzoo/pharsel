@@ -8,6 +8,10 @@
 
 #special {
 	#sec_new {
+		.inner_new {
+			max-width: 1080px;
+			margin: 0 auto;
+		}
 		.bg_wave {
 			.inner {
 				text-align: left;
@@ -15,9 +19,6 @@
 					text-align: center;
 					padding-bottom: 60px;
 					border-bottom: 1px dotted #ddd;
-					.tl_special {
-						text-align: left;
-					}
 					.txt_date {
 						padding: 4px 0 4px 4px;
 						text-align: right;
@@ -25,31 +26,6 @@
 						display: inline-block;
 						font-size: 13px;
 						color: #85ccff;
-					}
-				}
-				#bottom {
-					padding-top: 20px;
-					.box_content_bottom {
-						width: 50%;
-						padding: 1.5%;
-						float: left;
-						.inner_img {
-							width: 23%;
-							float: left;
-						}
-						.inner_txt {
-							width: 75%;
-							float: left;
-							.txt_small {
-								font-size: 12.5px;
-								line-height: 1.55em;
-							}
-							.txt_date {
-								text-align: right;
-								color: #85ccff;
-								font-size: 13px;
-							}
-						}
 					}
 				}
 				.wrp_img_special {

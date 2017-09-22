@@ -35,4 +35,18 @@
     display: inline-block;
     float: none;
   }
+
+  /* interview */
+  #interview .wrp_photo,
+  #interview .wrp_txt {
+    float: none;
+    width: 100%;
+  }
+  #interview .inner_basic .btn_basic {
+    margin: 14px auto 21px auto;
+  }
+
+  .wrp_box_fv .wrp_box_txt .tl_fv {
+    font-size: 34px;
+  }
 }

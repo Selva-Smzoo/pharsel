@@ -2,7 +2,7 @@
 /* ===================================================================
  CSS information
  author     : SELVA Co., Ltd.
- style info : lowerpage(下層ページ共通)
+ style info : 下層ページ共通
 =================================================================== */
 #fv {
   background: url(../images/top/top_bg_fv1.jpg);
@@ -113,6 +113,12 @@
 }
 
 /* txt */
+.wrp_box_fv {
+  width: 100%;
+  position: absolute;
+  bottom: 200px;
+}
+
 .tl_contens_lower {
   width: 600px;
   margin: 0 auto 15px;

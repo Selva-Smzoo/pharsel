@@ -1,0 +1,17 @@
+/* ===================================================================
+ CSS information
+ author     : SELVA Co., Ltd.
+ style info : search
+=================================================================== */
+#search .bg_pattern_blue {
+  padding-top: 0;
+}
+#search #intro {
+  padding: 40px 3% 60px;
+}
+#search #intro .tl_entry {
+  margin-bottom: 10px;
+}
+#search .wrp_search_box {
+  margin: 20px auto 30px;
+}

@@ -2,6 +2,75 @@
 /* ===================================================================
  CSS information
  author     : SELVA Co., Ltd.
- style info : copy
+ style info : list
 =================================================================== */
 @import "settings";
+
+#list {
+	.bg_pattern_blue {
+		padding-top: 0;
+	}
+
+	#intro {
+		background-image:
+		url("../images/common/bg_intro_list.png"),
+		url("../images/common/bg_pattern_blue.jpg");
+		background-position:
+		left top,
+		left top;
+		background-repeat:
+		no-repeat,
+		repeat;
+		background-size:
+		cover,
+		auto;
+		min-height: 200px;
+		padding: 20px 3% 46px;
+	}
+	.bg_wave {
+		padding-bottom: 0;
+	}
+
+	#pager {
+		background-color: rgb(241, 235, 230);
+		padding: 13px 0;
+		button {
+			width: 40px;
+			height: 40px;
+			display: inline-block;
+			vertical-align: bottom;
+			-webkit-transition: all .4s ease;
+	    -moz-transition: all .4s ease;
+	    -o-transition: all .4s ease;
+	    -ms-transition: all .4s ease;
+	    transition: all .4s ease;
+			border: none;
+			&.prev {
+				background: url(../images/common/ic_minus.png) center center no-repeat;
+				background-size: 18px auto;
+				margin: 0 6px;
+				border: 1px solid #7b7a79;
+			}
+			&.next {
+				background: url(../images/common/ic_plus.png) center center no-repeat;
+				background-size: 18px auto;
+				margin: 0 4px;
+				border: 1px solid #7b7a79;
+			}
+			&.num {
+				background-color: rgb(241, 235, 230);
+				margin: 0 2px;
+				font-size: 18px;
+				border-radius: 30px;
+				text-align: center;
+				&.active {
+					border: 1px solid #7b7a79;
+				}
+			}
+			&:hover {
+				background-color: rgba(255, 254, 254, 0.69);
+				cursor: pointer;
+			}
+		}
+	}
+}
